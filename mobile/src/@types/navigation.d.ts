@@ -1,11 +1,11 @@
 export declare global {
-    namespace ReacNavigation {
-        interface RootParamList {
-            home: undefined;
-            new: undefined;
-            habit: {
-                date: String;
-            }
-        }
+  namespace ReactNavigation {
+    interface RootParamList {
+      home: undefined;
+      new: undefined;
+      habit: {
+        date: string;
+      }
     }
+  }
 }
