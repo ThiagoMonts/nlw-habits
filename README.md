@@ -1,12 +1,13 @@
 <h1 align="center"> Habits </h1>
 
 <p align="center">
-Projeto desenvolvido no evento promovido pela Rocketseat para ensino de tecnologias WEB.
+Projeto desenvolvido no evento NLW - Habtis promovido pela Rocketseat para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-instruções">Instruções</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
@@ -33,47 +34,67 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Habits é um projeto que apresenta ...
+O Habits é um projeto para monitorar seus hábitos durante todo o ano, nele é possível escolher o hábito que deseja monitorar, a frequência que ele vai se repetir, além de possuir um identidade visual que facilita o acompanhamento das atividades criadas, concluídas e não concluídas. Vale ressaltar que o sistema possui um banco de dados para armazenamento dos hábitos, possui uma interface web e também possui um app mobile.
 
-Clone o projeto e acesse a pasta.
+
+## 📋 Instruções
+
+### Clone o projeto e acesse a pasta.
 
 ```bash
 $ git clone https://github.com/ThiagoMonts/nlw-habits.git
+```
+```bash
 $ cd nlw-habits
 ```
 
-Siga o passo a passo:
+<br>
 
-### Web
+### Siga o passo a passo:
+
+#### Versão Web
 
 Instale as dependências
 ```bash
 $ cd web
+```
+```bash
 $ npm install
 ```
+
+<br>
 
 Inicie o projeto web
 ```bash
 $ npm run dev
 ```
 
-### Server
+<br>
+
+#### Servidor
 
 Instale as dependências
 ```bash
 $ cd server
+```
+```bash
 $ npm install
 ```
+Verifique se o arquivo .env encontra-se na raíz do projeto
+
+<br>
 
 Inicie o servidor do projeto
 ```bash
 $ npx prisma migrate deploy
+```
+```bash
 $ npm run dev
 ```
 
-Verifique se o arquivo .env encontra-se na raíz do projeto
+<br>
 
-### Mobile
+#### Versão Mobile
 
 Instale as dependências
 ```bash
@@ -81,10 +102,14 @@ $ cd mobile
 $ npm install
 ```
 
+<br>
+
 Inicie o projeto mobile
 ```bash
 $ npx expo start
 ```
+
+<br>
 
 ## 🔖 Layout
 
